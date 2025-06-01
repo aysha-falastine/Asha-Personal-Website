@@ -1,0 +1,143 @@
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px,20px,;
+   background-color: white;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #f0f0ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.logo span {
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: whitesmoke;
+  border-bottom: 2px solid white;
+}
+
+/* HOME SECTION */
+#Home {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9f9ff;
+}
+
+.Home-content img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.Home-content h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.Home-content h2 {
+  font-size: 1.8rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.Home-content p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ABOUT, SKILLS, PROJECT, CONTACT */
+section {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.skills-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-content li {
+  margin: 10px 0;
+}
+
+/* PROJECT BUTTON */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #8a2be2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #5e1aa8;
+}
+
+/* CONTACT LINKS */
+.Contact-content ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.Contact-content a {
+  color: black;
+  text-decoration: none;
+}
+
+.Contact-content a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0ff;
+  color: #555;
+}
+
+
+
+
+
